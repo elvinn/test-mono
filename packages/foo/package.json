@@ -1,5 +1,5 @@
 {
-  "name": "@tencent/elvin-foo",
+  "name": "elvin-test-foo",
   "version": "1.0.1",
   "main": "dist/index",
   "types": "dist/index",

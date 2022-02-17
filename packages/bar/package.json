@@ -1,5 +1,5 @@
 {
-  "name": "@tencent/elvin-bar",
+  "name": "elvin-test-bar",
   "version": "1.0.1",
   "main": "dist/index",
   "types": "dist/index",
@@ -13,7 +13,7 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "@tencent/elvin-foo": "^1.0.1"
+    "elvin-test-foo": "^1.0.1"
   },
   "devDependencies": {
     "rimraf": "~3.0.2",
