@@ -11,6 +11,7 @@
     "build": "lerna run build",
     "test": "lerna run test",
     "pub": "lerna publish",
+    "version": "lerna version --conventional-commits --yes",
     "lint": "eslint --ext js,ts,tsx ."
   },
   "devDependencies": {
