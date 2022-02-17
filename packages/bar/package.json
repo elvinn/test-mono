@@ -1,6 +1,6 @@
 {
   "name": "elvin-test-bar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index",
   "types": "dist/index",
   "files": [
@@ -13,7 +13,7 @@
     "prepublishOnly": "pnpm run build"
   },
   "dependencies": {
-    "elvin-test-foo": "^1.0.2"
+    "elvin-test-foo": "^1.0.3"
   },
   "devDependencies": {
     "rimraf": "~3.0.2",
