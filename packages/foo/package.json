@@ -7,7 +7,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "pnpm run clean && pnpm run compile",
+    "build": "echo 'foo' && pnpm run clean && pnpm run compile",
     "clean": "rimraf -rf ./dist",
     "compile": "tsc -p tsconfig.build.json",
     "prepublishOnly": "pnpm run build"

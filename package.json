@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "docs": "doctoc --title '**Table of content**' README.md",
+    "docs": "doctoc --title '**境外支付前端公共代码**' README.md",
     "clean": "lerna run clean",
     "build": "lerna run build",
     "test": "lerna run test",
