@@ -3,4 +3,4 @@ import { meaningOfLife } from 'elvin-test-foo';
 console.log(meaningOfLife);
 console.log('heihei');
 console.log('heihei1111');
-const a = 1;
+const b = 0;

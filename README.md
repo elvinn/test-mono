@@ -14,7 +14,9 @@
 ## Q & A
 
 1. 为什么在 VS Code 里，根目录的 package.json 会有 `Module 'xxx' is extraneousnpm` 的 warning？
-  - 因为本项目使用了 pnpm worksapce 的能力优化依赖安装，而 vscode-npm-scripts 对这个的处理有问题，具体讨论可以跳转 [Github - Module 'xxx' is extraneous](https://github.com/Microsoft/vscode-npm-scripts/issues/25)
+  - 因为本项目使用了 pnpm worksapce 的能力优化依赖安装，而 vscode-npm-scripts 对这个的处理有问题，具体讨论可以跳转 [Github - Module 'xxx' is extraneous](https://github.com/Microsoft/vscode-npm-scripts/issues/25)。
+2. `pnpm i` 安装依赖后提示告警，说 `eslint-plugin-react / eslint-import-resolver-webpack` 等 peer dependencies 未安装，有影响吗？
+  - 无影响，目前这些依赖是境外 ESLint 规则所需要的，由于公共库暂无 React / Webpack 的使用，所以这些依赖无需安装。
 
 ## 参考链接
 
