@@ -1,6 +1,6 @@
-import { meaningOfLife } from "elvin-test-foo";
+import { meaningOfLife } from 'elvin-test-foo';
 
-// eslint-disable-next-line no-console
 console.log(meaningOfLife);
-// eslint-disable-next-line no-console
-console.log("heihei");
+console.log('heihei');
+console.log('heihei1111');
+const a = 1;
