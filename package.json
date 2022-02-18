@@ -12,7 +12,7 @@
     "pub": "lerna publish",
     "version": "lerna version --conventional-commits --yes",
     "lint": "eslint --fix --ext js,ts,tsx .",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
